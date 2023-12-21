@@ -1,0 +1,55 @@
+.container {
+  margin-top: 2rem;
+  padding: 2rem;
+}
+
+.card {
+  background-color: rgb(235, 233, 233);
+  padding: 10px;
+  /* text-align: center; */
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+}
+
+.listOfParticipants {
+  background-color: white;
+  padding: 10px;
+  /* height: 150%; */
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-end;
+}
+
+.track1 {
+  width: 350px;
+  height: 150px;
+  border: 1px solid black;
+  border-radius: 35%;
+  background-color: white;
+}
+
+.track2 {
+  width: 280px;
+  height: 125px;
+  border: 1px solid black;
+  border-radius: 35%;
+  background-color: white;
+  margin: 10px 0px 0px 23px;
+}
+
+.track3 {
+  width: 200px;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 35%;
+  background-color: rgb(84, 183, 84);
+  margin: 10px 0px 0px 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
