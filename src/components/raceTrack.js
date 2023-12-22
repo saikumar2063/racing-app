@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./dashboard.css";
 import styled from "styled-components";
+import "./dashboard.css";
 
 const Div = styled.div`
   display: flex;
@@ -19,7 +20,9 @@ const Span = styled.div`
   background-color: green;
   text-align: center;
   align-items: center;
-  color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
 `;
 function StartRace() {
   const [time, setTime] = useState(0);

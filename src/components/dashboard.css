@@ -29,24 +29,26 @@
   width: 350px;
   height: 150px;
   border: 1px solid black;
-  border-radius: 35%;
+  border-radius: 50%;
   background-color: white;
+  align-items: center;
 }
 
 .track2 {
   width: 280px;
   height: 125px;
   border: 1px solid black;
-  border-radius: 35%;
+  border-radius: 50%;
   background-color: white;
-  margin: 10px 0px 0px 23px;
+  margin: 10px 0px 0px 30px;
+  align-items: center;
 }
 
 .track3 {
   width: 200px;
   height: 100px;
   border: 1px solid black;
-  border-radius: 35%;
+  border-radius: 50%;
   background-color: rgb(84, 183, 84);
   margin: 10px 0px 0px 35px;
   display: flex;

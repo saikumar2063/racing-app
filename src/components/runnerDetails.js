@@ -82,7 +82,9 @@ function RunnerDetails() {
               />
             </InputGroup>
             <br />
-            <Button onClick={addRunner}>+ Add Runner</Button>
+            <Button className="button" onClick={addRunner}>
+              + Add Runner
+            </Button>
           </Card>
         </Col>
         <Col md={8}>
